@@ -1,0 +1,45 @@
+.preview {
+  position: relative;
+}
+.previewClose {
+  position: absolute;
+  top: 0;
+  margin: 5px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.previewToolbarRight {
+  color: white;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 5px;
+}
+.previewToolbarRight > .MuiSvgIcon-root {
+  font-size: 20px !important;
+  cursor: pointer;
+}
+.previewFooter {
+  position: absolute;
+  bottom: 0;
+  right: -25px;
+  transform: translate(-50%,-50%);
+  background-color: yellow;
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3px;
+  border-radius: 30px;
+  padding: 7px;
+  cursor: pointer;
+}
+.previewFooter h2{
+  font-size: 8px;
+}
+.previewSendIcon{
+  font-size: 10px !important;
+}
