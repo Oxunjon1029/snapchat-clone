@@ -13,9 +13,9 @@ const ChatView = () => {
 
   useEffect(() => {
     if (!selectedImage) {
-      exit();
+      navigator('/chats');
     }
-  }, [selectedImage]);
+  }, [selectedImage, navigator]);
   return (
     <div className='chatView'>
       <div className='chatViewTimer'>
